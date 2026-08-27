@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "lib": ["ES2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist-server",
+    "rootDir": "./",
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": ["server.ts", "express/**/*", "prisma/**/*"],
+  "exclude": ["node_modules", ".next", "src"]
+}
