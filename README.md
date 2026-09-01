@@ -2,6 +2,7 @@
 "build": "next build && tsc -p tsconfig.server.json",
  "start": "NODE_ENV=production ts-node --project tsconfig.server.json server.ts",
  "start": "NODE_ENV=production ts-node --project tsconfig.server.json server.ts",
+ "start": "NODE_ENV=production ts-node --project tsconfig.server.json server.ts",
 "start": "node dist-server/server.js" -->
 
 
