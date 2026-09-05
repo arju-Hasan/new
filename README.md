@@ -1,5 +1,6 @@
 <!-- "dev": "next dev",
 "build": "next build && tsc -p tsconfig.server.json",
+"build": "next build && tsc -p tsconfig.server.json",
 "start": "node dist-server/server.js" -->
 
 
